@@ -1,0 +1,18 @@
+{
+    "request": {
+        "method": "POST",
+        "urlPath": "/api-rest/services/send-sms",
+        "bodyPatterns" : [ {
+        	"matchesJsonPath" : "$.sendSmsRequest[?(@.to == '5551999999200')]"
+    	} ],
+    	"headers": {
+			"Content-Type": {
+				"equalTo": "application/json"
+			}
+	    } 
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "send-sms-200.json"
+    }
+}
