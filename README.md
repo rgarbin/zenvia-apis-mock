@@ -22,7 +22,8 @@ docker run -p 8080:8080 -e PORT=8080 rgarbin/zenvia-api-mock
 
 ## Mock rules
 
-- Required Authorization: User-user and Pass=pass
+- Valid Credentials: user / pass
+- Invalid Credentials: abc / 123
 - When number phone 5551999999200 and all required fields sent then return HTTP Code Status OK(200) with a success payload.
 
 
