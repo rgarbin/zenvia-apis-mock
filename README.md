@@ -4,9 +4,11 @@
 
 Full documentation about Zenvia API on [http://docs.zenviasms.apiary.io](http://docs.zenviasms.apiary.io) 
 
-## Using Mock from docker hub 
-
-- docker build -t rgarbin/zenvia-api-mock . && docker run -p 8080:8080 -e PORT=8080 rgarbin/zenvia-api-mock
+## How run? 
+```bash
+docker build -t rgarbin/zenvia-api-mock . 
+docker run -p 8080:8080 -e PORT=8080 rgarbin/zenvia-api-mock
+```
 
 
 ## [Heroku](https://devcenter.heroku.com/articles/container-registry-and-runtime)
