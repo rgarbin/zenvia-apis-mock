@@ -38,6 +38,6 @@ curl -v --user "user:pass" \
 curl -v --user "user:pass" \
      -H "Accept: application/json" \
      -H "Content-Type: application/json" \
-     -X POST -d '{ "sendSmsMultiRequest":{ "aggregateId": "14828", "sendSmsRequestList":[ { "from":"remetente", "to":"5551999999200", "msg": "SMS Message", "callbackOption":"NONE", "schedule": "2017-08-09T14:00:00", "id": "msg-id" }] }}' 
+     -X POST -d '{ "sendSmsMultiRequest":{ "aggregateId": "14828", "sendSmsRequestList":[ { "from":"remetente", "to":"5551999999200", "msg": "SMS Message", "callbackOption":"NONE", "schedule": "2017-08-09T14:00:00", "id": "msg-id" }] }}' \ 
      http://zenvia-apis-mock.herokuapp.com/api-rest/services/send-sms-multiple
 ```
