@@ -13,7 +13,7 @@ Full documentation about Zenvia API on [http://docs.zenviasms.apiary.io](http://
 ## Mock rules
 
 - Authorization: "user:pass"
-- Number 5551999999200 always return HTTP Code Status OK(200) with a success payload
+- Number 5551999999200 always return HTTP Code Status OK(200) with a success payload when all required fields sent
 
 
 ### Call api-rest / send-sms with a valide request (OK with a success payload)
