@@ -1,0 +1,8 @@
+{
+    "cancelSmsResp" : {
+        "statusCode" : "09",
+        "statusDescription" : "Blocked",
+        "detailCode” : "002",
+        "detailDescription" : "Message successfully canceled"
+    }
+}
