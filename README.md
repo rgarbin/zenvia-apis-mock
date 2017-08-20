@@ -4,10 +4,9 @@
 
 Full documentation about Zenvia API on [http://docs.zenviasms.apiary.io](http://docs.zenviasms.apiary.io)
 
-## Using Mock 
+## Using Mock from docker hub 
 
-- docker push rgarbin/zenvia-api-mock 
-- Devs: docker build -t zenvia-api-mock . && docker run -p 8080:8080 zenvia-api-mock
+- docker pull rgarbin/zenvia-api-mock && docker run -p 8080:8080 rgarbin/zenvia-api-mock
 
 
 ## Mock rules
