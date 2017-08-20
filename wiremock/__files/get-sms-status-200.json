@@ -1,0 +1,12 @@
+{
+  "getSmsStatusResp" : {
+    "id" : "0",
+    "received" : "2017-08-20T18:56:57",
+    "shortcode" : null,
+    "mobileOperatorName" : "vivo",
+    "statusCode" : "02",
+    "statusDescription" : "Sent",
+    "detailCode" : "133",
+    "detailDescription" : "Message content in analysis"
+  }
+}
