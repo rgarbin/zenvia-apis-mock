@@ -17,9 +17,8 @@
             {"matchesJsonPath" : "$.sendSmsMultiRequest.sendSmsRequestList[0].schedule"}
     	],
     	"headers": {
-			"Content-Type": {
-				"equalTo": "application/json"
-			}
+			"Content-Type": { "equalTo": "application/json"	},
+            "Accept": { "equalTo": "application/json" }
 	    } 
     },
     "response": {
