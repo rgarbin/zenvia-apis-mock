@@ -63,5 +63,15 @@ curl -v --user "user:pass" \
      -H "Accept: application/json" \
      -H "Content-Type: application/json" \
      -X GET \ 
-     http://zenvia-apis-mock.herokuapp.com/api-rest/services/get-sms-status/123
+     http://zenvia-apis-mock.herokuapp.com/api-rest/services/get-sms-status/0
+```
+
+### Call api-rest / cancel-sms with a valide request (http code status 200)
+
+```bash
+curl -v --user "user:pass" \
+     -H "Accept: application/json" \
+     -H "Content-Type: application/json" \
+     -X POST \ 
+     http://zenvia-apis-mock.herokuapp.com/api-rest/services/cancel-sms/0
 ```
